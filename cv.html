@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        hr {
+            color: grey;
+            border: 4px solid grey;
+        }
+        .profil {
+            border-radius: 100%;
+        }
+        .bgtop {
+            background-image: url(images/Background.jpg);
+            background-size: cover;
+        }
+        .mhs {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        @media (max-width: 1200px) {
+            ul {
+                list-style-type: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!--Navigation-->
+    <nav class="navbar fixed-top navbar-expand-lg bg-dark navbar-dark p-4">
+        <div class="container-fluid">
+          <img src="images/istts.webp" class="" alt="-" width="50px">
+          <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto fw-bold">
+                <li class="nav-item me-2">
+                    <a class="nav-link text-white" href="#profil">Profil Pribadi</a>
+                </li>
+                <li class="nav-item me-2">
+                    <a class="nav-link text-white" href="#kontak">Kontak</a>
+                </li>
+                <li class="nav-item me-2">
+                    <a class="nav-link text-white" href="#pendidikan">Pendidikan</a>
+                </li>
+                <li class="nav-item me-2">
+                    <a class="nav-link text-white" href="#skill">Skill</a>
+                </li>
+                <li class="nav-item me-2">
+                    <a class="nav-link text-white" href="#pengalaman">Pengalaman Kerja</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!--Profil-->
+    <div class="bgtop mt-5">
+        <div class="container-fluid row mt-5">
+            <div class="col-12 col-xl-5 mt-5 m-auto text-center">
+                <img class="profil m-5" src="images/Foto.jpg" alt="-" width="300px" height="300px">
+            </div>
+            <div class="col-12 col-xl-7 m-auto text-center text-xl-start">
+                <h1 class="text-white fw-bold ms-5">IVAN SUSANTO</h1>
+                <h5 id="profil" class="mhs text-white fw-bold ms-5 mb-5 mb-xl-0">MAHASISWA ISTTS</h1>
+            </div>
+        </div>
+    </div>
+
+    <!--Container-->
+    <div class="container-fluid fs-4">
+        <div class="row text-center text-xl-start">
+            <div class="col-12 col-xl-5 ps-5 pe-5 pb-5">
+                <div class="mt-5">
+                    <h1 class="text-secondary fs-2 fw-bold">PROFIL</h1>
+                    <h1 class="text-secondary fs-2 fw-bold">PRIBADI</h1>
+                    <hr class="m-xl-0 m-auto" width="13%">
+                    <p id="kontak" class="mt-3">Saya pribadi yang suka mempelajari hal baru dan mengembangkan kemampuan saya. Dengan kemampuan yang saya dapatkan saya bisa menghasilkan ide baru untuk meningkatkan kualitas pekerjaan yang baik.</p>
+                </div>
+                <div class="fw-bold mt-5">
+                    <h1 class="text-secondary fs-2 fw-bold">KONTAK</h1>
+                    <hr class="m-xl-0 m-auto" width="13%">
+                    <div class="row mb-3 m-auto mt-3">
+                        <div class="col-xl-2">
+                            <img src="images/Location.png" alt="-" width="50px" height="50px">
+                        </div>
+                        <div class="col-xl-10">
+                            <p class="mt-2">Jl. Juwingan No. 11-A</p>
+                        </div>
+                    </div>
+                    <div class="row mb-3 m-auto">
+                        <div class="col-xl-2">
+                            <img src="images/mail.png" alt="-" width="50px" height="50px">
+                        </div>
+                        <div class="col-xl-10">
+                            <p class="mt-1">xxlaunch12xx@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="row mb-3 m-auto">
+                        <div class="col-xl-2">
+                            <img src="images/call.png" alt="-" width="50px" height="50px">
+                        </div>
+                        <div class="col-xl-10">
+                            <p id="pendidikan" class="mt-2">+62 8135-766-1890</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-5">
+                    <h1 class="text-secondary fs-2 fw-bold">PENDIDIKAN</h1>
+                    <hr class="m-xl-0 m-auto" width="13%">
+                    <ul class="mt-3">
+                        <li>SD Santa Clara Surabaya, 2015</li>
+                        <li>SMP Santa Clara Surabaya, 2018</li>
+                        <li id="skill">SMA Santo Hendrikus Surabaya, 2021</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-xl-7 bg-light ps-5 pe-5 pb-5">
+                <div class="mt-5">
+                    <h1 class="text-secondary fs-2 fw-bold">SKILL</h1>
+                    <hr class="m-xl-0 m-auto" width="13%">
+                    <ul class="mt-3">
+                        <li>Dapat menjalin komunikasi yang baik dengan orang lain</li>
+                        <li>Sukses dalam menjalankan pekerjaan dan tanggung jawab sesuai dengan waktu yang telah ditentukan</li>
+                        <li>Mampu mengerjakan pekerjaan dibawah tekanan dan waktu yang terbatas</li>
+                        <li id="pengalaman">Kemampuan untuk mengikuti instruksi yang diberikan dan menghasilkan hasil yang sesuai dengan permintaan</li>
+                    </ul>
+                </div>
+                <div class="mt-5">
+                    <h1 class="text-secondary fs-2 fw-bold">PENGALAMAN KERJA</h1>
+                    <hr class="m-xl-0 m-auto" width="13%">
+                    <h2 class="mt-3">Anggota OSIS SMA Santo Hendrikus</h2>
+                    <p>SEPTEMBER 2018 - AGUSTUS 2019</p>
+                    <ul>
+                        <li>Menjadi anggota devisi Seni</li>
+                        <li>Mengurus proposal acara HeArt yang merupakan acara mencari bakat di Hendrikus</li>
+                        <li>Mengawasi kegiatan dan keberlangsungan acara HeArt</li>
+                    </ul>
+                    <h2>Anggota HIMA ISTTS</h2>
+                    <p>JANUARI 2022 - DESEMBER 2022</p>
+                    <ul>
+                        <li>Menjadi anggota devisi Kewirausahaan</li>
+                        <li>Mengurus proposal acara Seminar Kewirausahaan</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
